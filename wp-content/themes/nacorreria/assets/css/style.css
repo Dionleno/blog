@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/07/2017, 22:26:35
+    Author     : dionleno
+*/
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+#menu-menu-1{margin: 10px 15px;}
+.navbar-brand {
+    float: left;
+    height: 85px;
+    padding: 0px !important;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px 30px 0 0;
+}
+ header .navbar-brand img{width: 200px;}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;         
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #f3bd22;
+    font-weight: bold;
+    background-color: transparent;  
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    font-size: 16px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;      
+} 
+
+/*MATERIAS*/
+.main{margin: 20px 0;}
+.padding-no{padding: 0;}
+.box-materias{height: 250px;background: #FFF;padding: 0px;box-shadow: 1px 1px 3px #888888;margin: 30px 0;position: relative;z-index: 99;float: none;}
+.box-materias a.imagebox{height: 250px;}
+.box-text-materia{padding: 20px 30px;}
+.cover-image{visibility: hidden;}
+
+/*HOMEPAGE*/
+     header{width: 100%;height: auto;background: #FFF;}
+     .media-heading {
+      margin-top: 0;
+      color: #000;
+      margin-bottom: 5px;
+    }
+    .media-heading a{color: #4d4d4d;text-decoration: none;}
+
+    body {
+        background: #eeeeee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#4d4d4d;
+        margin: 0;
+        padding: 0;
+    }
+    .banner-slider-fundo{
+        background: url(../images/fundo.png);        
+        width: 100%;
+        height: 400px;        
+    }
+    .swiper-container {
+        
+        width: 100%;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;                          
+        background-size: cover !important;background-repeat: no-repeat !important;
+    }
+    .banner-slider{
+        margin: 0px auto 0;
+        padding-top: 100px;
+        color: #FFF;
+        width: 500px;
+    }
+    .swiper-slide h1{
+       padding: 0;margin-top: 5px;text-transform: uppercase;font-size: 35px;font-weight: bold;
+    }
+
+    .form-control, .btn{border-radius: 0;}
+    .materia-categoria{padding: 10px 15px;background: #e74c3c;color: #FFF;text-transform: uppercase;font-size: 12px;font-weight: bold;}
+    .materia-categoria.cat-sm{padding: 5px 8px;font-size: 11px;}
+     .header-title{width: 100%; background: url('../images/linha.jpg') repeat-x;background-position: center right;margin: 20px 0px 20px;}
+     .header-title h3.title-undercode{background: #eee;display: inline;padding-right: 10px;color: #656565;font-size: 15px;text-transform: uppercase;font-weight: bold;}
+     
+.btn-default{color:#fff;background-color:#f3bd22;border-color:#f3bd22}
+.btn-default.focus,.btn-default:focus{color:#fff;background-color:#f3bd22;border-color:#f3bd22}
+.btn-default:hover{color:#fff;background-color:#f3bd22;border-color:#f3bd22}
+.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#f3bd22;border-color:#f3bd22}
+.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{color:#fff;background-color:#f3bd22;border-color:#f3bd22;}
+
+
+.btn-white{color:#656565;background-color:#fff;border-color:#fff}
+.btn-white.focus,.btn-white:focus{color:#656565;background-color:#fff;border-color:#fff}
+.btn-white:hover{color:#656565;background-color:#fff;border-color:#fff}
+.btn-white.active,.btn-white:active,.open>.dropdown-toggle.btn-white{color:#656565;background-color:#fff;border-color:#fff}
+.btn-white.active.focus,.btn-white.active:focus,.btn-white.active:hover,.btn-white:active.focus,.btn-white:active:focus,.btn-white:active:hover,.open>.dropdown-toggle.btn-white.focus,.open>.dropdown-toggle.btn-white:focus,.open>.dropdown-toggle.btn-white:hover{color:#656565;background-color:#fff;border-color:#fff;}
+
+
+
+ul.list-categoria{margin: 0;padding: 0;list-style: none;}
+ul.list-categoria li{width: 100%;text-align: left;}
+ul.list-categoria li a{width: 100%;text-align: left;margin: 0px 0 10px;}
+
+/*single*/
+.box-materias-single {    
+    background: #FFF;
+    padding: 0px;
+    box-shadow: 1px 1px 3px #888888;
+    margin: 10px 0;
+    position: relative;
+    z-index: 99;
+    float: left;
+}
+.box-materias-single img{width: 100%;height: auto;}
+.st-theme-social-header {
+    margin-top: 30px;
+    text-align: left;
+}
+.st-theme-social-header a.facebook {
+    background: #3b5999;
+}
+.st-theme-social-header a.twitter {
+    background: #55acee;
+}
+.st-theme-social-header a.google {
+    background: #DC4E41;
+}
+.st-theme-social-header a.pinterest {
+    background: #bd081c;
+}
+
+.st-theme-social-header a {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+}
+
+
+/*footer*/
+.footer{background: #37474f;padding: 40px 0;color: #FFF;margin-top: 40px;}
+.footer-left{float: left;margin-right: 30px;}
+.footer-autoria{background: #263238;color:#FFF;padding: 10px 0 5px;}    
+.redes-sociais{text-align: right;}
+
+
+@media screen and (max-width: 990px) {
+    .navbar-header{width: 100%;}
+}
+
+/*TABLET*/
+@media screen and (max-width: 767px) {
+    header .container{padding: 0;}
+    header .navbar-brand img{width: 120px;}
+    
+ .navbar-brand {
+    float: left;
+    height: 57px;
+    padding: 0px !important;   
+    line-height: 20px;
+    margin: 5px 20px 0 0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin: 0px 0 20px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;         
+}
+.swiper-slide h1{
+       padding: 0;margin-top: 5px;font-size: 30px;
+    }
+    .box-materias{height: auto;background: #FFF;padding: 0px;box-shadow: 1px 1px 3px #888888;margin: 30px 0;position: relative;z-index: 99;float: left;}
+     .box-materias a.imagebox{height: 250px;}
+     .footer{background: #37474f;padding: 0px 0;color: #FFF;margin-top: 40px;text-align: center;}
+     .footer-left{float: none;margin-right: 0px;margin-top: 30px;}
+     .redes-sociais{margin-top: 20px;}
+}
+@media screen and (max-width: 450px) {
+    .container{padding: 0;}
+  .swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .swiper-slide {
+        text-align: center;           
+        background: url('../images/banner.jpg') no-repeat;
+        background-size: cover;
+    }
+    .banner-slider{
+        margin: 0px auto 0;
+        color: #FFF;
+        width: 90%;
+    }  
+     .banner-slider-fundo{
+        background: url(../images/fundo.png);        
+        width: 100%;
+        height: 300px;        
+    }
+    .swiper-slide h1{
+       padding: 0;margin-top: 5px;font-size: 18px;text-transform: uppercase;
+    }
+     
+    .box-text-materia{padding: 20px 15px;}
+}
+  
+
+/*paginacao*/
+.page-numbers{border: 1px solid #d0b45f;padding: 10px; color: #d0b45f;}
+.page-numbers.current{background: #f3bd22;color: #FFF;padding: 10px; }
+.page-numbers:hover{background: #f3bd22;color: #FFF;}
